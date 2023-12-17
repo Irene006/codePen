@@ -37,6 +37,7 @@ a {
 .fila1 > .fila1-col1 img{
     width: 180px;
     margin: 10px 30px;
+    cursor: pointer;
 }
 
 .fila1 > .fila1-col1 > .nav-container {
@@ -60,15 +61,18 @@ a {
 
 .fila1 > .fila1-col1 > .nav-container > .nav > div {
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .fila1 > .fila1-col1 > .nav-container > .nav > .spark {
     font-weight: normal;
     margin-right: 5px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .fila1 > .fila1-col1 > .nav-container > .nav > .material-symbols-outlined {
     color: white;
+    cursor: pointer;
 }
 
 
@@ -81,7 +85,7 @@ a {
 
 .fila1 > .fila1-col2 > .search {
     padding: 10px;
-
+    cursor: pointer;
     
 }
 .fila1 > .fila1-col2 > .search > .material-symbols-outlined {
@@ -98,6 +102,7 @@ a {
     border-radius: 3px;
     margin: 5px;
     display: flex;
+    cursor: pointer;
 
 }
 
@@ -120,13 +125,21 @@ a {
 }
 
 
+.centro > .centro-col1 > .p1 {
+    color: #ffffffc4;
+}
+.centro > .centro-col1 > .p1  strong{
+    color: #ffffff;
+}
 
 .centro > .centro-col1 > div > .material-symbols-outlined {
     color: yellow;
 }
 
+
 .centro > .centro-col1 > .p2 {
     font-size: 0.8em;
+    color: #ffffffc4;
 }
 
 .centro > .centro-col1 > .botones {
@@ -138,7 +151,7 @@ a {
 .centro > .centro-col1 > .botones div {
     border-radius: 4px;
     padding: 15px 30px;
-    /* letter-spacing: 2px; */
+    cursor: pointer;
 
 }
 
@@ -200,6 +213,7 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
+    cursor: pointer;
 }
 
 
