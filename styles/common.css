@@ -1,3 +1,4 @@
+/* communes */
 body{
     margin: 0px;
     
@@ -7,8 +8,6 @@ body{
     height: 1000px;
     color: white;
     
-    
-    /* color: #47cf73; */
 }
 
 a {
@@ -22,7 +21,7 @@ a {
 }
 
 
-
+/* Primera parte (header) */
 .fila1 {
     display: flex;
     justify-content: space-between;
@@ -37,6 +36,9 @@ a {
 .fila1 > .fila1-col1 img{
     width: 180px;
     margin: 10px 30px;
+    /* Voy a dejar el cursor tipo pointer en aquelos elementos que crea que van a ser enlacec o botones.
+    NO he puesto más tags de enlaces por que lo que estoy replicando es estatico */
+    /* Me imagino que el logo tambien será un enlace a la pagina principal */
     cursor: pointer;
 }
 
@@ -106,9 +108,12 @@ a {
 
 }
 
+/* Parte central */
 .centro {
     display: flex;
     justify-content: space-between;
+    /* Pongo gradiente de color por que en la imagen parece que si que hay, 
+    pero podría ser cosa mía */
     background-image: linear-gradient(to bottom right, #444852, #2c303a47);
 
     /* background-color: rgb(44, 48, 58); */
@@ -155,17 +160,21 @@ a {
 
 }
 
+/* Respecto a los botones, tambien será cosa mía, pero podrian tener un 
+poquito de profundidad */
 .centro > .centro-col1 > .botones > .signup {
     background-color: #47cf73;
     color: black;
     border: 1px solid black;
-    margin-right: 15px;    
+    margin-right: 15px;   
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 40%); 
 
 }
 
 .centro > .centro-col1 > .botones > .learn {
     background-color: black;
     font-weight: bold;
+    box-shadow: 0px 0px 10px 0px rgb(255 255 255 / 12%);
 
 
 }
@@ -188,11 +197,18 @@ a {
 .centro > .centro-col2 a {
     color: rgb(126, 204, 230);
 }
+.centro > .centro-col2 > .img-projects {
+    /* En la imagen parece que esta imagen tiene profundidad */
+    box-shadow: 0px 0px 11px 5px rgb(0 0 0 / 40%);
+
+}
 .centro > .centro-col2 img {
     width: 100%;
+    
 }
 
 
+/* Parte de abajo */
 .fila3 {
     display: flex;
     justify-content: space-between;
@@ -217,6 +233,8 @@ a {
 }
 
 
+
+/* helpers */
 .spacer10 {
     height: 10px;
     width: 100%;
